@@ -1,0 +1,291 @@
+   @charset "UTF-8";
+   body{
+       background-color:var(--cor3)
+       var(--fonte-padrão)
+   }
+   
+   @import url('https://fonts.googleapis.com/css2?family=Borel&family=Open+Sans:wght@300&display=swap');
+   @font-face {
+       font-family:'Android';
+       src: url('../fonte/idroid.otf') format('opentype');
+       font-weight: normal;
+   }
+   /*
+   #ebe5c5
+   #83e1ad
+   #3ddc84
+   #2fa866
+   #1a5c37
+   */
+
+   /*CSS COLADO DA IRINA COMPARADO E MODIFICADO COM O DO GUANABARA*/
+   :root{
+   
+       --cor0:#ebe5c5;
+       --cor1:#83e1ad;
+       --cor2:#3ddc84;
+       --cor3:#2fa866;
+       --cor4:#1a5c37;
+       --cor5:#063d1e;
+   
+       --fonte-padrão:Arial,Verdana,Helvetica, sans-serif;
+       --fonte-destaque:  'Borel', 'cursive';
+       --fonte-android:'Android','cursive';
+   } 
+    
+    header{
+    
+    padding: 20px;
+    height: 110px;
+    margin: auto;
+    background-image:linear-gradient(to bottom,var(--cor3),var(--cor5));
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.405);
+    text-align: center;
+          }
+
+header h1{
+ 
+    color: white;
+    font-size: 2em;
+    font-family: var(--fonte-destaque);
+    padding: 0px;
+    text-align: center;
+    text-shadow: var(--box-shadow-padrão-texto);
+        
+}
+
+
+
+
+    header> p{
+
+    color: white;
+    font-size: 1.2em;
+    padding-top:0px;
+    text-align: center;
+    text-shadow: var(--box-shadow-padrão-texto);
+         }
+
+         
+    nav>p {
+   
+     background-color: var(--cor3);
+     padding: 10px;
+     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.405);
+     
+          }
+
+
+nav>a{
+  
+    color:white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bolder;
+    border-radius: 5px;
+    transition-duration: .5s;
+    
+         }
+
+nav>a:link,nav>a:visited{
+
+    color: white;
+
+         }
+
+
+nav > a:hover {
+    
+     background-color: var(--cor2);
+
+         }
+
+nav{
+
+    background-color: var(--cor5);
+         }
+
+main{
+    
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 10px;
+    
+   
+         }
+
+/*PARAGRAFOS*/
+
+main p{
+
+     color: black;
+     text-align: justify;
+     text-indent: 2em;
+     line-height: 2em;
+     padding-bottom: 20px;
+
+         }
+
+ main a{
+
+     text-decoration: none;
+     color: var(--cor3);
+     font-weight: bolder;
+     padding: 2px;
+
+         }   
+         
+         
+main a::after{
+
+     content: var(--simbolo-link-externo);
+         }
+
+main a:hover{
+    color: white;
+    background-color: var(--cor3);
+    padding: 2px;
+
+         }
+
+ article h1{
+
+     color:var(--cor3);
+     font-size:2em;
+
+     text-align: center;
+     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.402);
+
+     font-family: var(--fonte-android);
+     padding: 20px;
+     margin:0px;
+         }
+
+         /*SUBTITULO*/
+
+article h2{
+
+     color: var(--cor3);
+     background-image:linear-gradient(to right, var(--cor0),transparent);
+     
+     font-family: var(--fonte-android);
+     text-shadow: var(--box-shadow-padrão-texto);
+
+     border-radius: 10px 0px 0px 10px;
+
+     padding: 2px;
+     padding-left: 10px;
+
+     margin: 20px;
+     margin-left: 0px;
+         }
+
+img{
+
+    width: 100%;
+
+         }
+
+.pequena{
+
+     display:block;
+     width: 200px;
+     margin: auto;
+         }
+
+.boxvideo{
+
+     position: relative;
+     background-color: var(--cor3);
+
+     padding-bottom: 56.25%;
+     padding-top: 25px;
+     margin:0px;
+         
+         }
+
+.boxvideo iframe{
+
+     position: absolute;
+     top:2.5%;
+     left: 5%;
+     width: 90%;
+     height: 95%;
+         }
+
+aside{
+    
+     background-color: #C5EBD6;
+     border-radius:0px 0px 5px 5px;
+     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.402);
+     padding: 10px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+         }
+
+aside h3{
+
+     border-radius: 5px 5px 0px 0px;
+     background-color: #2FA866;
+     color: white;
+     font-size: 1em;
+     padding: 10px;
+     margin: -10px -10px -20px -10px;
+         }
+
+aside p{
+
+     text-align: justify;
+     text-indent: 1em;
+
+         }   
+
+
+aside>ul{
+    
+     list-style-type: 
+     '\2714\00a0\00a0';
+     list-style-position: inside;
+     columns: 2;
+     padding: 30px;
+         }
+
+ /*RODAPÉ*/
+
+ footer>p{
+
+     background-color: var(--cor3);
+     color: white;
+     text-align: center;
+     font-size: 0.8em;
+     padding: 5px;
+     margin-bottom: 0px;
+
+         }
+         
+ footer a{
+
+     font-weight: bold;
+     color: white;
+     text-shadow: var(--box-shadow-padrão-texto);
+     text-decoration: none;
+      padding: 2px;
+
+         }
+
+ 
+ footer a:hover{
+     
+     color: black;
+     background-color: white;
+     padding: 2px;
+
+         }
+
+ footer a::after{
+        
+     content: var(--simbolo-link-externo);
+
+         }     
+

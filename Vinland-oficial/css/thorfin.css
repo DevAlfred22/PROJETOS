@@ -1,0 +1,119 @@
+@charset "UTF-8";
+body{
+   
+    background-image: linear-gradient(to bottom, red,orange, yellow);
+    height:100vh;
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+}
+p{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace
+}
+main{
+    background-color: rgb(77, 106, 193);
+}
+article{
+
+    background-color: rgb(249, 173, 8);
+    border: 5px solid black;
+    border-radius: 30px;
+    text-align: center;
+    padding: 5px;
+    width: 440px;
+    height: 540px;
+    position: absolute;
+    top:11% ;
+    left: 28%;
+}
+
+
+  
+  figure{
+    position: absolute;
+    top: 12%;
+    left: 0.5%;
+   
+  }
+  img{
+    width: 350px;
+    height: 500px;
+  }
+
+  nav{
+
+    
+    padding: 10px;
+background-color: #ff00005d;
+box-shadow: 1px 1px 1px black;
+    
+}
+
+
+
+
+ nav>a:link,nav>a:visited{
+
+   
+      
+    padding:  6px 6px 6px 6px;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition-duration: .3s;
+    background-color: rgb(34, 106, 106);
+    border-radius: 20%;
+   
+    border: 2px solid black;
+        }
+
+        nav > a:hover{
+
+            background-color: rgb(21, 45, 37);
+        }
+
+        div{
+            border: 2px solid black;
+            border-radius: 10px;
+            position: absolute;
+            top: 57%;
+            left: 63%;
+            width: 200px;
+            height: 75px;
+            background-color: rgb(255, 183, 0);
+            padding: 5px;
+        }
+
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        iframe{
+            position: absolute;
+            top: 8%;
+            left: 63%;
+        }
+
+        button{
+          
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+              color: rgb(7, 5, 0);
+              background-color: rgb(255, 115, 0);
+              border-radius: 30px;
+              width: 138px;
+              height: 50px;
+              cursor:pointer ;
+              position: fixed;
+              bottom: 232px;
+              right: 36px;
+              text-decoration: none;
+          
+  
+          }
+          
+
+          .frase2{
+
+            text-align: right;
+          }

@@ -1,0 +1,13 @@
+Framework é um conjunto de bibliotecas, que abordam funcionalidades, e estruturas, para o desenvolvimento de aplicações, a fim de fornecer soluções para um mesmo domínio de problema, permitindo a reutilização do seu código.
+
+m framework é uma estrutura que serve de base para a construção de aplicações web de finalidade específica cujo desenvolvimento pode ser muito custoso e/ou problemático
+
+Um Micro-Framework são Frameworks modularizados que possuem uma estrutura inicial muito mais simples quando comparado a um Framework convencional.
+
+Podemos dizer que o micro-framework é uma versão minimalista destes frameworks, sendo bastante utilizado para criação de microsserviços, como APIs RESTful.
+
+Ele é um framework, ou seja, é um conjunto de ferramentas do Python usado para desenvolvimento web.
+
+A ideia dele é que você comece um site da forma mais simples possível e depois vá adicionando funcionalidades, “one drop at a time”, ou seja, uma de cada vez.
+O motivo de chamá-lo de micro framework é justamente por ele começar simples e ir ficando mais complexo à medida que se acrescentam funcionalidades.
+

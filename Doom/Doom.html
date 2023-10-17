@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoftBase</title>
+     <link rel="shortcut icon" href="Gartoon-Team-Gartoon-Devices-Computer-laptop.16.ico" type="image/x-icon">
+    <STyle>
+        
+        body{
+            background-image: linear-gradient(to left,#90F1EF,#7BF1A8,#C1FBA4 )
+            
+        }
+        p{
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+
+        }
+        </style>
+
+<script>
+    function modificaClasse() {
+      document.getElementById('mensagem').className = 'estilo2'
+    }
+
+  </script>
+
+   <script>
+     function distribuiCaracter(){
+       //selecionar o valor digitado
+       var caracter = document.getElementById('entrada').value
+
+       //limpar o campo de digitação
+       document.getElementById('entrada').value=''
+
+       //limpar espaços em branco nas extremidades da string
+       caracter.trim()
+
+       switch(caracter) {
+         case '0':
+         case '1':
+         case '2':
+         case '3':
+         case '4':
+         case '5':
+         case '6':
+         case '7':
+         case '8':
+         case '9':
+           //adicionar o caracter no campo referente a números
+           document.getElementById('apenas_numeros').value = caracter
+           break;
+           default:
+            //adicionar o caracter no campo referente a letras
+            document.getElementById('apenas_letras').value = caracter 
+       }
+     }
+
+    </script>
+
+</head>
+<body>
+    <h1>Doom?</h1>
+    <p>O DOM é a representação estruturada de uma página da web e fornece acesso a todos os elementos e conteúdos presentes nela. Uma das funcionalidades mais poderosas é a capacidade de manipular classes, que nos permite adicionar, remover ou alterar estilos e comportamentos dos elementos de maneira flexível.</p>
+    <div id="mensagem" class="estilo1">Modificando a classe do elemento</div>
+  <hr />
+  <button type="button" onclick="modificaClasse()">Aplicar classe</button><br>
+    
+</body>
+</html>

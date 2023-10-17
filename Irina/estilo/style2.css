@@ -1,0 +1,329 @@
+   @charset "UTF-8";
+   
+   @import url('https://fonts.googleapis.com/css2?family=Borel&family=Open+Sans:wght@300&display=swap');
+ 
+   @font-face {
+       font-family:'Android';
+       src: url('../fonte/idroid.otf') format('opentype');
+       font-weight: normal;
+         }
+   /*
+   #ebe5c5
+   #83e1ad
+   #3ddc84
+   #2fa866
+   #1a5c37
+   */
+
+           /*CSS COLADO DA IRINA COMPARADO E MODIFICADO COM O DO GUANABARA*/
+    
+    
+     :root{
+   
+         --cor0:#ebe5c5;
+         --cor1:#83e1ad;
+         --cor2:#3ddc84;
+         --cor3:#2fa866;
+         --cor4:#1a5c37;
+         --cor5:#063d1e;
+   
+         --fonte-padrão:Arial,Verdana,Helvetica, sans-serif;
+         --fonte-destaque:  'Borel', 'cursive';
+         --fonte-android:'Android','cursive';
+             } 
+    
+     header{
+    
+         padding: 20px;
+         height: 110px;
+         margin: auto;
+         background-image:linear-gradient(to bottom,var(--cor3),var(--cor5));
+         box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.405);
+         text-align: center;
+             }
+  
+     header h1{
+ 
+         color: white;
+         font-size: 2em;
+         font-family: var(--fonte-padrão);
+         font-weight: normal;
+         padding: 0px;
+         text-align: center;
+         text-shadow: var(--box-shadow-padrão-texto);
+        
+             }
+
+
+
+
+     header> p{
+
+         color: white;
+         font-size: 1.2em;
+         padding-top:0px;
+         text-align: center;
+         
+   
+             }
+
+         
+     nav>p {
+   
+         background-color: var(--cor3);
+         padding: 10px;
+         box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.405);
+     
+             }
+
+
+      nav>a{
+  
+         
+         padding: 10px;
+         text-decoration: none;
+         font-size: bold;
+         font-size: 1.2em;
+         border-radius: 5px;
+         transition-duration: .3s;
+    
+             }
+
+      nav>a:link,nav>a:visited{
+
+         color:var(--cor1);
+
+             }
+
+
+     nav > a:hover {
+    
+         background-color: var(--cor4);
+
+             }
+
+      nav{
+
+         background-color: var(--cor5);
+         padding-bottom: 13px;
+   
+             }
+
+
+     body{
+         
+         background-color: var(--cor0);
+              
+             }
+
+     
+     main{
+      
+         background-color: white;
+         min-width: 300px;
+         max-width: 1000px;
+         margin: auto;
+         margin-bottom: 10px;
+         box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.413);
+         font-family: var(--fonte-padrão);
+    
+             }
+
+/*PARAGRAFOS*/
+
+     main p{
+
+         color: black;
+         text-align: justify;
+         padding-bottom: 20px;
+
+             }
+
+     main a{
+
+         text-decoration: none;
+         color: var(--cor3);
+         font-weight: bolder;
+         padding: 2px;
+
+             }   
+         
+         
+     main a::after{
+
+          content: var(--simbolo-link-externo);
+             }    
+
+     main a:hover{
+    
+         color: white;
+         background-color: var(--cor3);
+         padding: 2px;
+
+             }
+
+
+     main h1{
+
+        font-weight: normal;
+         
+        }
+
+     a.externo::after{
+
+         content: '\1F517';
+             }          
+
+     strong{
+    
+         color: var(--cor4);
+         font-weight: bold;
+         font-family: var(--fonte-android);
+    
+             }
+         
+     article h1{
+
+         color:var(--cor4);
+         font-size:2em;
+
+         text-align: center;
+         text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.402);
+
+         font-family: var(--fonte-android);
+         padding: 20px;
+         margin:0px;
+
+     
+             }
+
+/*SUBTITULO*/
+
+     article h2{
+
+         color: var(--cor4);
+         background-image: linear-gradient(to right,var(--cor1),transparent);
+
+         font-family: var(--fonte-android);
+         font-size: 1.3em;
+     
+         text-indent: 8px;
+         text-align: left;
+         text-indent: 8px;
+     
+         border-radius: 10px 0px 0px 10px;
+
+         padding: 2px;
+         padding-left: 10px;
+
+         margin: 20px;
+         margin-left: 5px;
+     
+    
+             }
+         
+     article{
+     
+         text-indent: 2em;            /*DISTANCIA DA PRIMEIRA PALAVRA DO TEXTO COM A BORDA*/
+         line-height: 2em;                 /*DISTANCIA ENTRE AS LINHAS*/
+            
+             }
+
+     img{
+
+         width: 100%;
+
+             }
+
+     .pequena{
+
+         display:block;
+         width: 200px;
+         margin: auto;
+             }
+
+     div.video{
+
+         background-color: var(--cor5); 
+         margin: 0px;
+         padding: 20px;
+         position: relative;
+         padding-bottom: 59%;
+
+             }
+
+
+     div.video>iframe{
+        
+         position: absolute;
+         top: 84%;
+         left: 31%;
+         width: 90%;
+         height: 90%;
+
+             }        
+
+     section{
+
+         background-color: var(--cor1);
+         padding: 10px;
+         border-radius: 10px;
+         box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.285);
+         margin: 10px;
+             }
+
+     section>ul{
+         
+         list-style-type: '\2714\00A0\00A0';
+         list-style-position: inside;
+         columns: 2;
+
+             }      
+         
+     section h3{
+         
+         color: white;
+         background-color: var(--cor4);
+         padding:10px;
+         margin: -10px -10px 0px -10px;
+         border-radius: 10px 10px 0px 0px;
+             }       
+
+
+
+ /*RODAPÉ*/
+
+     
+
+     *{
+         margin: 0px;
+         padding: 0px;
+           
+             }
+       
+     footer{
+
+         background-color: var(--cor3);
+         color: white;
+         text-align: center;
+         font-size: 1em;
+         padding: 5px;
+         
+             
+             }       
+       
+     footer a{
+
+         color: white;
+         font-weight: bolder;
+         text-decoration: none;
+         
+         
+             }
+
+     footer a:hover{
+
+         text-decoration: underline;
+         color: var(--cor1);
+         
+             }        

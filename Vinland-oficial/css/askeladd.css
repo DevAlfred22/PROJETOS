@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+        body{
+            background-image: linear-gradient(to top, #3b3b3b,#7e7a7a,#adacac);
+          background-repeat: no-repeat;
+          height: 100vh;
+          overflow-y: hidden;
+        }
+    
+      
+        
+  img{
+    width:400px;
+    height: 527px;
+    position: absolute;
+    top: 9%;
+    left: 1%;
+  }
+  
+ 
+  article{
+    margin-top: 9px;
+    position: relative;
+    top: 9%;
+    left: 32%;
+
+    background-color: antiquewhite;
+    width: 400px;
+    height: 490px;
+    border: 5px solid black;
+    border-radius: 10%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 9px;
+  }
+
+  iframe{
+    position: absolute;
+    top: 12%;
+    left: 68%;
+    width: 400px;
+    height: 280px;
+  }
+  aside{
+    position: absolute;
+    top: 60%;
+    left: 76%;
+    background-color: antiquewhite;
+    border: 2px Solid black;
+    border-radius: 5px;
+    padding: 4px;
+    text-align: end;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  p.frase{
+    text-align: right;
+    font-weight: lighter;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+   nav{
+
+            background-color: rgba(155, 153, 153, 0.697);
+            padding: 10px;
+            
+            
+        }
+        
+        
+        
+        
+         nav>a:link,nav>a:visited{
+        
+           
+              
+            padding:  6px 6px 6px 6px;
+            text-decoration: none;
+            font-size: 1.2em;
+            transition-duration: .3s;
+            background-color: rgb(34, 106, 106);
+            border-radius: 20%;
+           
+            border: 2px solid black;
+                }
+        
+                nav > a:hover{
+        
+                    background-color: rgb(21, 45, 37);
+                }
+
+                button{
+          
+                  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                    color: rgb(7, 5, 0);
+                    background-color: rgb(86, 80, 80);
+                    border-radius: 30px;
+                    width: 138px;
+                    height: 50px;
+                    cursor:pointer ;
+                    position: fixed;
+                    bottom: 140px;
+                    right: 36px;
+                    text-decoration: none;
+                
+        
+                }
+
+                *{
+                    margin: 0px;
+                    padding: 0px;
+                      
+                        }

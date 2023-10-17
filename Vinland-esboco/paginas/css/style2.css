@@ -1,0 +1,146 @@
+body{
+  background-image: linear-gradient(to right, #45c996,#397060,#345049);
+
+  /*CORPO DO SITE*/
+ }
+
+h2{
+ 
+  color: black;
+  position: relative;
+ 
+ 
+  /*FRASE DE EFEITO DO THORS*/
+ }
+
+
+ #makoto{
+ 
+   display: block;
+   color: rgb(0, 0, 0);
+   width: 300px;
+   height: 327px;
+   top: -220px;
+   left: 39px;
+}
+
+
+
+
+
+
+ header{
+
+ position:relative;
+ right: -1010px;
+ width: 300px;
+ border-radius: 5px;
+ padding: 6px;
+ background-color: rgba(20, 219, 176, 0.658);
+ box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.493);
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  position:relative;
+  width: 1310px;
+  border-radius: 29px;
+  padding: 6px;
+  margin: 12px 0px;
+  background-color: rgba(1, 73, 102, 0.658);
+  
+
+  /*ESPAÇO ONDE SERÁ INSERIDO OS LINKS COM A BIOGRAFIA DOS PERSONAGENS*/
+ }
+
+nav> a{    
+         
+    text-decoration: wavy;
+    color: rgb(223, 223, 223);
+    font-weight: bolder;
+    margin-left: auto;
+    margin-right: 149px;
+    padding: 4px;
+    flex: 1;                     /* Cada link ocupa uma proporção igual do espaço disponível */
+    text-align: justify;
+    
+
+}
+
+nav a:hover {
+ color: rgb(255, 0, 0); /* Cor do link ao passar o mouse */
+ font-weight: bold; /* Estilo do link ao passar o mouse */
+ cursor: pointer;
+
+}
+
+main{
+   
+   position:relative ;
+   top: 526px;
+   right: 10px;
+   left: 10px;
+   text-align: center;
+   background-color: rgba(151, 153, 43, 0.432);
+   border-radius: 5%;
+   width: 650px;
+   height: 587px;
+   border: 5px solid black;
+   float: left;   
+   margin-top: 20px;
+
+   /*ESPAÇO DO CONTEUDO PRINCIPAL DO SITE*/
+ }
+
+#conteudo{
+        font-family: 'Courier New', Courier, monospace;
+        color: #000000;
+        text-align: center;
+
+   /*TITULO DO CONTEUDO*/
+ }
+
+#ponto2{
+ 
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: rgb(0, 0, 0);
+   /*CONTEUDO ESCRITO*/
+ }
+ div{
+   background-color: rgba(255, 255, 255, 0.856);
+   width: 500px;
+   height:540px;
+   position: relative;
+   top: -640px;
+   right: -769px;
+   border-radius: 3%;
+ }
+ p{
+   color: rgb(0, 0, 0);
+   text-align: center;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+ }
+
+img{
+
+ 
+     width: 600px;
+     height: 311px;
+     position: relative;
+     top: -311px;
+     right: 621px;
+}
+ 
+ 
+ 
+
+ 
+  /*IMAGEM DO SITE*/ 
+ 
+/*
+ float: right;
+ width: 663px;
+ height: 592px;
+ position: relative;
+ top: -97%;
+ left: 104%;*/
